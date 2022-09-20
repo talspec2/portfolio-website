@@ -1,0 +1,109 @@
+body, body {
+    height: 100%;
+    margin: 0;
+}
+
+.movingBackground {
+    background-size: 300% 300%;
+    background-color: gray;
+    animation: colorFade 10s ease infinite alternate;
+}
+
+@keyframes colorFade {
+    0%{background-color:#FFDFCC}
+    25%{background-color:#FFF3DB}
+    50%{background-color: #CBEBC3}
+    75%{background-color: #ADD7DB}
+    100%{background-color: #898FAD}
+}
+
+
+.separator {
+    background: rgba(0, 0, 0, 1); 
+    height: 2px;
+    margin: 5%;
+}
+
+.personalPicture {
+    background: url(https://lh3.googleusercontent.com/tNrmox9jZZcmRQL0ATu2wMvZKhcto7vvAbHSl3E43wW8iKiE_Kq4TLDhJsC7FKpAOyJXPWIsgul3PZck6VZeJSUsFV3z01N-imxtEUatYG1oHVZHQ1TN7YekMC70NAqAz5Znd7K08RDjxfs96_NHTnFlq_KJ6pLcWyrMuUpRN8ilB7jjoPp6O-6TJ-riv7jQ0rzXt4WMXqFEZSn8HKs-Qsq9xFLxhRq0Qs4OS2jyKgfHUJSKG-LsPV5nJ7a-re4QE0x48KhwwlQ3RrT5NOc3orWN_RHXXsdZ563b6WxZmaixknbny2PP5KbtFZ1Ee_H9p_7kCcdto6RL6fLXhvnw90f0QhmsbokduZxY5-2Brr2u3eZTjwJNHWoWkcRfDbvmIv55w5L0ykf4y5Vjs1Z4qa2O2V7UiJfEFZEcWa5nEhEtvg1fuTMsUaDxu3rbXCmiKckdjI5UEtYGym1_lOvk-Ac4bb12FdIomRIp5WJrlV506o-PHG3pnnTRO3d1m-iNP7EUlckgA8DQifNq2_OTuDqbohrftxgK0pVHJykxV6GHI5sp45hXHfJH7yMVwBuBmecKJIHwkxbxNeyAjc9H1HMw_L1h10ugMVl-4xIhYzipohCyTfm6Jr9y1x8oYQga0lSTC4wxgupVNr6LLxWXsnVSb6aLivtURPSJbGlNpbGN_5yB2hSKEIac0ZFJox40Hzrt2M0i0fH7NtWUL8RTzncn0jpie8Mdjv914-dztDyPhd8_8a7AJq7KRwuD_o_OOMGSVa1iCqTZFzHBtfKkxnDsGK3GshoZhbLT5Xiu1QuHXNZ_hXwlvpWAA0DJw8eJv1TATJb43Dxjo2D6vuOWU1wu0ysVpcrRRykhgnNlE1gPC1-z8OwNdCyFYe5UG-X4GDbgy5_lvC15jcqFRdQM-J1cX9_V2oer3_r5qIMb2j0Ckbe0O79GAcbPai321TcXUR4zNY3R2s0ELJBnhL-lc7CTSLFrZnAftsNmOqErgznv9RlvtDoTaNt2bKtAMwkqXdPi5lD8JZEGKV8PcHg=w720-h959-no?authuser=1) no-repeat;
+    background-position: 75%;
+    background-size:  25% auto;
+}
+
+.asuPicture {
+    background: url(https://www.logolynx.com/images/logolynx/f1/f126d36b7adeb1fa0522edfc9c1f3f35.png) no-repeat;
+    background-position: 75%;
+    background-size:  25% auto;
+}
+
+.extraMilePicture {
+    background: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G5OWOIHHU5GLXOROV2WCXRYNAM.jpeg&w=916) no-repeat;
+    background-position: 75%;
+    background-size: 25% auto;
+}
+
+.text {
+    width: 30%;
+    margin-left: 15%;
+    font-size: 15px;
+    padding-bottom: 2px;
+    font: Arial;
+    text-align: left;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.contactText {
+    text-align: center;
+    font: Arial;
+}
+
+.bottom {
+    max-height:100%;
+    overflow: hidden;
+    background: darkgray bottom left repeat-x;
+}
+
+h1 {
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 17px;
+    margin-top: 13%;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 10px;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+    border-bottom: 2px solid black;
+    line-height: 15px;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    color: black;
+}
+  
+li a:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
