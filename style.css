@@ -25,7 +25,7 @@ body, body {
 }
 
 .personalPicture {
-    background: url(/portfolio-website/personal-image.jpeg) no-repeat;
+    background: url(portfolio-website/personal-image.jpeg) no-repeat;
     background-position: 75%;
     background-size:  25% auto;
 }
